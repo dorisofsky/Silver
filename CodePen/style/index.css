@@ -1,0 +1,107 @@
+body {
+  font-size: 2em;
+  font-family: "微軟正黑體";
+  text-indent: 50px;
+  letter-spacing: 3px;
+  line-height: 2.8;
+}
+
+.header {
+  min-height: 80px;
+  background: #67E5BD;
+}
+#timmer{
+  position: absolute;
+  right: 360px;
+  top:50px;
+  font-size: 20px;
+}
+#header-nav {
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  text-indent: 0px;
+  line-height: 3.1;
+}
+
+#block4-nav {
+  font-size: 20px;
+  position:absolute; 
+/*應該可以有更好的讓filter置中的方法*/
+  left:38%;
+  top: 508px;
+  text-indent: 0px;
+  line-height: 0.5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.block1 {
+  min-height: 180px;
+  background: #2F9CAF;
+}
+
+.block2 {
+  
+  min-height: 200px;
+  background: #19346B;
+  text-indent: 0px; 
+  text-align:center;
+}
+
+.block3 {
+  display: inline-block;
+  width: 49%;
+  min-height: 194px;
+  background: #00773B;
+  margin: 3px;
+}
+
+.block4 {
+  min-height: 80px;
+  background: #89A7A7;
+  
+}
+.block5 {
+  min-height: 600px;
+  background: #F56416;
+    text-indent: 0px;
+  text-align: center;
+}
+.inblock5{
+  display: inline-block;
+  min-height: 575px;
+  background: #FFBC0A;
+  width: 50%;
+}
+#inblock5A{
+  padding-top:25px;
+}
+#inblock5B{
+top:50;
+  min-height: 550px;
+  background: #EC0868;
+}
