@@ -21,7 +21,7 @@
   </div>
   <div class="block1">動機
 
-    <svg height="800" width="800">
+<!--     <svg height="800" width="800">
         <polygon points="210,80 350,150 220,250" style="fill:gray" />
         <polygon points="590,80 450,150 580,250" style="fill:gray" />
         <ellipse cx="400" cy="300" rx="200" ry="180" style="fill:gray" />
@@ -38,7 +38,7 @@
         <line x1="690" y1="320" x2="550" y2="340" style="stroke:black;stroke-width:2" />
         <line x1="695" y1="370" x2="555" y2="360" style="stroke:black;stroke-width:2" />
         <line x1="680" y1="400" x2="550" y2="380" style="stroke:black;stroke-width:2" />
-    </svg> 
+    </svg>  -->
 
   </div>
   <div class="block2">
@@ -59,12 +59,14 @@
 --><div class="inblock5" id="inblock5B">篇章預覽</div>
   </div>
 
-<!--   <script>
-  function hid3(){
-      var svgContainer = d3.select(".block1").append("svg")
-  }
-  hid3()
-  </script> -->
+  <script>
+  // function hid3(){
+       var svgContainer = d3.select(".block1").append("svg")
+       .attr("width", 600)
+                .attr("height", 100);
+  // }
+  // hid3()
+  </script>
 
 </body>
   
